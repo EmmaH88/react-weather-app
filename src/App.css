@@ -1,0 +1,18 @@
+.App .container {
+  max-width: 700px;
+  margin: 0 auto;
+  border: 2px solid lightgray;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  maring: 0;
+}
+
+li {
+  text-align: center;
+  list-style: none;
+}
