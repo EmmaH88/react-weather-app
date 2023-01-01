@@ -10,9 +10,7 @@ export default function Weather() {
           placeholder="Search for a City..."
           className="form-control"
         />
-        <button type="button" class="btn btn-success">
-          Search
-        </button>
+        <input type="submit" className="btn btn-success" />
       </form>
 
       <h1>The weather in Manchester is...</h1>
@@ -21,7 +19,6 @@ export default function Weather() {
         <li>Mostly Cloudy</li>
         <li>H: 9°C | L: 3°C</li>
       </ul>
-
       <div className="row">
         <div className="col-6">
           <div className="clearfix">
